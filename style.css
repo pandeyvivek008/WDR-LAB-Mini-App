@@ -1,0 +1,168 @@
+/* ===== Global Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ===== Body Styling ===== */
+body {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  color: #fff;
+}
+
+/* ===== Main Container ===== */
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  padding: 35px 30px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 520px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+/* ===== Heading ===== */
+.container h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+/* ===== Question Text ===== */
+#question-text {
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* ===== Choices List ===== */
+#choices-list {
+  list-style: none;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* ===== Each Choice Option ===== */
+#choices-list li {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 14px 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+#choices-list li:hover {
+  background: rgba(255, 255, 255, 0.35);
+  transform: scale(1.04);
+}
+
+/* ===== Correct Answer (Green) ===== */
+.correct {
+  background-color: #4caf50 !important;
+  color: white;
+  animation: pulse 0.8s ease;
+}
+
+/* ===== Wrong Answer (Red) ===== */
+.wrong {
+  background-color: #f44336 !important;
+  color: white;
+  animation: shake 0.4s ease;
+}
+
+/* ===== Disabled Options After Selection ===== */
+.disabled {
+  pointer-events: none;
+  opacity: 10;
+}
+
+/* ===== Buttons ===== */
+button {
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+  border: none;
+  padding: 14px 22px;
+  margin-top: 18px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #ff8a00, #ff2a6d);
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 6px 15px rgba(255, 50, 120, 0.4);
+}
+
+/* ===== Hidden Elements ===== */
+.hidden {
+  display: none;
+}
+
+/* ===== Result Section ===== */
+#result-container h2 {
+  font-size: 26px;
+  margin-bottom: 12px;
+}
+
+#score {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffeaa7;
+}
+
+/* ===== Pulse Animation for Correct Answers ===== */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
+
+/* ===== Shake Animation for Wrong Answers ===== */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-6px); }
+  40% { transform: translateX(6px); }
+  60% { transform: translateX(-6px); }
+  80% { transform: translateX(6px); }
+}
+
+/* ===== Responsive Design for Mobile ===== */
+@media (max-width: 600px) {
+  .container {
+    padding: 25px 18px;
+  }
+
+  .container h2 {
+    font-size: 24px;
+  }
+
+  #question-text {
+    font-size: 18px;
+  }
+
+  #choices-list li {
+    font-size: 15px;
+    padding: 12px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+}
