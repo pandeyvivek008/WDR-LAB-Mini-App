@@ -27,7 +27,8 @@ It helps users test their knowledge in a fun and engaging way with instant score
 
 _Add a screenshot of your app here_  
 
-![Quiz App Preview](screenshot.png)
+![Quiz App Preview](assets/quiz-preview.png)
+
 
 ---
 
