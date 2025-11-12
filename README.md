@@ -23,12 +23,9 @@ It helps users test their knowledge in a fun and engaging way with instant score
 
 ---
 
-## 📸 Preview
-
-_Add a screenshot of your app here_  
+## 📸 Preview 
 
 ![Quiz App Preview](assets/quiz-preview.png)
-
 
 ---
 
