@@ -29,15 +29,14 @@ It helps users test their knowledge in a fun and engaging way with instant score
 
 ---
 
-## 💻 How to Run
+## 🧑‍💻 How to Use
 
-1️. **Clone the repository**  
-```bash
-git clone https://github.com/pandeyvivek008/WDR-LAB-Mini-App.git
-
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/pandeyvivek008/WDR-LAB-Mini-App.git
 2. **Open the folder in VS Code or any code editor**
-3️.  **Run the index.html file in your browser**
-4️.  **Enjoy the quiz 🎯**
+3. **Run the index.html file in your browser**
+4. **Enjoy the quiz 🎯**
 
 ## 📚 Learning Outcomes
   - Understanding DOM manipulation
