@@ -31,14 +31,15 @@ It helps users test their knowledge in a fun and engaging way with instant score
 
 ## 💻 How to Run
 
-1️⃣ **Clone the repository**  
-     ```bash
-        git clone https://github.com/pandeyvivek008/WDR-LAB-Mini-App.git
-2️⃣ **Open the folder in VS Code or any code editor**
-3️⃣ **Run the index.html file in your browser**
-4️⃣ **Enjoy the quiz 🎯**
+1️. **Clone the repository**  
+```bash
+git clone https://github.com/pandeyvivek008/WDR-LAB-Mini-App.git
 
-📚 Learning Outcomes
+2. **Open the folder in VS Code or any code editor**
+3️.  **Run the index.html file in your browser**
+4️.  **Enjoy the quiz 🎯**
+
+## 📚 Learning Outcomes
   - Understanding DOM manipulation
   - Working with arrays and objects in JavaScript
   - Implementing quiz logic (score, options, next question, etc.)
